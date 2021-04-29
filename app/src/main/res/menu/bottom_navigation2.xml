@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/podcast"
+        android:icon="@drawable/ic_mic_pink"
+        android:enabled="true"
+        android:title="Podcast"
+
+        />
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        android:enabled="true"
+        android:title="Home"/>
+    <item
+        android:id="@+id/events"
+        android:icon="@drawable/ic_events"
+        android:enabled="true"
+
+        android:title="Events"/>
+</menu>

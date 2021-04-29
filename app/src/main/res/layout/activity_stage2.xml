@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#973961"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="200dp"
+            android:layout_height="217dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/logo"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/text"
+            android:layout_below="@id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What was your breast cancer stage and last time you went to diagnose"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:fontFamily="@font/sen_regular"
+            android:padding="5dp"
+            android:layout_marginTop="25dp"
+            android:textAlignment="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:layout_below="@id/text"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:theme="@style/spinner_style"
+            android:paddingBottom="5dp"
+            android:prompt="@string/stages"
+            android:background="@drawable/border_stage"
+            android:entries="@array/stages_arrays"
+            android:fontFamily="@font/sen_regular"
+            android:layout_marginTop="50dp" />
+        <Button
+            android:id="@+id/date"
+            android:layout_below="@id/spinner"
+            android:layout_width="wrap_content"
+            android:elevation="5dp"
+            android:layout_height="wrap_content"
+            android:text="       Pick Date      "
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:fontFamily="@font/sen"
+            android:background="@drawable/border"
+            android:layout_marginTop="38dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="18dp"/>
+        <Button
+            android:id="@+id/next"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sen_regular"
+            android:paddingLeft="25dp"
+            android:paddingRight="15dp"
+            android:text="Next "
+            android:elevation="5dp"
+            android:drawableRight="@drawable/ic_arr_right"
+          android:layout_marginBottom="35dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FFFFFF"
+            android:layout_alignParentBottom="true"
+            android:textSize="19dp"
+
+            android:background="@drawable/hover"
+            android:onClick="onClick"/>
+
+    </RelativeLayout>
+</LinearLayout>

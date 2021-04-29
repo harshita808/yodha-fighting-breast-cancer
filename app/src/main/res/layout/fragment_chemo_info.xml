@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#973961"
+
+    >
+    <include
+        layout="@layout/toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#973961"
+
+            >
+            <TextView
+                android:id="@+id/FAQ"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FAQ'S"
+                android:textSize="24dp"
+                android:textColor="#FFB9BF"
+                android:gravity="center"
+                android:fontFamily="@font/sen"
+                />
+            <TextView
+                android:id="@+id/text1"
+                android:layout_below="@id/FAQ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Why do you need chemotherapy treatment more than once? "
+                android:textSize="24dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="19dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="15dp"
+                android:textAlignment="textStart"
+                android:fontFamily="@font/sen"
+                />
+            <TextView
+                android:id="@+id/text2"
+                android:layout_below="@id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Not all cancer cells will be killed during the first round of chemotherapy, so patients may have to undergo several rounds until all the cancer cells have been destroyed."
+                android:textSize="16dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/sen_regular"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_below="@id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" How is chemotherapy administered?"
+                android:textSize="24dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="19dp"
+                android:textColor="#FFFFFF"
+                android:textAlignment="textStart"
+                android:fontFamily="@font/sen"
+                />
+            <TextView
+                android:id="@+id/text4"
+                android:layout_below="@id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chemotherapy can either be taken orally (by mouth in pill form), intravenously (directly into a vein), subcutaneously (injection into the skin) and intrathecally (into the cerebrospinal fluid)."
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/sen_regular"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_below="@id/text4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Where will I have chemotherapy treatment? "
+                android:textSize="24dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="19dp"
+                android:textColor="#FFFFFF"
+                android:textAlignment="textStart"
+                android:fontFamily="@font/sen"
+                />
+            <TextView
+                android:id="@+id/text6"
+                android:layout_below="@id/text5"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="If you have an oral form of chemotherapy, you can take this at home. All other forms (or combinations) are usually administered at the hospital or a mobile chemotherapy clinic."
+                android:textSize="16dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/sen_regular"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/text7"
+                android:layout_below="@id/text6"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:text="Will I need to take other drugs? "
+                android:textSize="24dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="19dp"
+                android:textColor="#FFFFFF"
+                android:textAlignment="textStart"
+                android:fontFamily="@font/sen"
+                />
+            <TextView
+                android:id="@+id/text8"
+                android:layout_below="@id/text7"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="Some people may need to take steroids to help fight infections, while others may be prescribed drugs to help with side effects associated with chemotherapy such as anti-emetic drugs (anti-sickness)."
+                android:textSize="16dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/sen_regular"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:id="@+id/text9"
+                android:layout_below="@id/text8"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:text="How will chemotherapy make me feel?"
+                android:textSize="24dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="19dp"
+                android:textColor="#FFFFFF"
+                android:textAlignment="textStart"
+                android:fontFamily="@font/sen"
+                />
+            <TextView
+                android:id="@+id/text10"
+                android:layout_below="@id/text9"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="Different people have different reactions to chemotherapy, and the reaction will also depend on the drug you’re taking and the dosage. Some people may feel feverish and flu-like, other may suffer from nausea, vomiting, mouth ulcers, fatigue, brain fog, and skin and nail changes. It’s important to speak to your healthcare providers about any side effects you’re experiencing"
+                android:textSize="16dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/sen_regular"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/text11"
+                android:layout_below="@id/text10"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How can I look after myself when going through chemotherapy? "
+                android:textSize="24dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="19dp"
+                android:textColor="#FFFFFF"
+                android:textAlignment="textStart"
+                android:fontFamily="@font/sen"
+                />
+            <TextView
+                android:id="@+id/text12"
+                android:layout_below="@id/text11"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="Getting plenty of sleep, not overdoing things, eating well, drinking plenty of water and exercising gently will all help you get through chemotherapy."
+                android:textSize="16dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/sen_regular"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:id="@+id/text13"
+                android:layout_below="@id/text12"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:text="Am I more at risk of infection when going through chemotherapy?"
+                android:textSize="24dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="19dp"
+                android:textColor="#FFFFFF"
+                android:textAlignment="textStart"
+                android:fontFamily="@font/sen"
+                />
+            <TextView
+                android:id="@+id/text14"
+                android:layout_below="@id/text13"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="Chemotherapy kills white blood cells which help to fight off viruses and infections. During chemotherapy, you should stay away from people who are ill, avoid large crowds, take care to regularly wash your hands — particularly after touching shared items or surfaces, or dealing with animals or raw meat."
+                android:textSize="16dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/sen_regular"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:id="@+id/text15"
+                android:layout_below="@id/text14"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:text="Can I drink alcohol during chemotherapy treatment?"
+                android:textSize="24dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="19dp"
+                android:textColor="#FFFFFF"
+                android:textAlignment="textStart"
+                android:fontFamily="@font/sen"
+                />
+            <TextView
+                android:id="@+id/text16"
+                android:layout_below="@id/text15"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content"
+                android:text="In most cases, moderate consumption of alcohol is fine, unless you have a problem with liver function. Your healthcare team will advise you if you shouldn’t consume any alcohol."
+                android:textSize="16dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/sen_regular"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#973961"
+
+    >
+    <include
+        layout="@layout/toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#973961">
+            <TextView
+                android:id="@+id/FAQ"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FAQ'S"
+                android:textSize="24dp"
+                android:textColor="#FFB9BF"
+                android:gravity="center"
+                android:fontFamily="@font/sen"
+                />
+            <TextView
+                android:id="@+id/text1"
+                android:layout_below="@id/FAQ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What is the goal of this treatment? "
+                android:textSize="24dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="19dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="15dp"
+                android:textAlignment="textStart"
+                android:fontFamily="@font/sen"
+                />
+            <TextView
+                android:id="@+id/text2"
+                android:layout_below="@id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Radiation therapy for breast cancer is typically given after a lumpectomy and sometimes after a mastectomy to decrease the risk of local cancer recurrence. The treatments typically start several weeks after surgery so the area has time to heal. Radiation therapy may be used:
+            •	 As a primary treatment to destroy cancer cells
+          • 	Before another treatment to shrink a tumor
+    • 	After another treatment to stop the growth of any remaining cancer cells
+   • 	 In combination with other treatments to stop cancer cell growth
+    •	 To relieve symptoms of advanced cancer
+"
+                android:textSize="16dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/sen_regular"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_below="@id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How often will I receive radiation therapy?"
+                android:textSize="24dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="19dp"
+                android:textColor="#FFFFFF"
+                android:textAlignment="textStart"
+                android:fontFamily="@font/sen"
+                />
+            <TextView
+                android:id="@+id/text4"
+                android:layout_below="@id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Typical courses of radiation treatment are administered five times a week for about six weeks, though the total duration depends on a number of factors including the patient’s general health and medical history and the risk of cancer recurrence."
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/sen_regular"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_below="@id/text4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="What are the potential side effects of this treatment?"
+                android:textSize="24dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="19dp"
+                android:textColor="#FFFFFF"
+                android:textAlignment="textStart"
+                android:fontFamily="@font/sen"
+                />
+            <TextView
+                android:id="@+id/text6"
+                android:layout_below="@id/text5"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="Many people who undergo radiation therapy for breast cancer have some breast pain and skin irritation. The affected skin may eventually become red and swollen like a sunburn. These conditions typically begin within a few weeks of starting treatment and go away on their own within six months after treatment ends. For some patients, these symptoms may not occur until several months or years after treatment. Other common side effects include fatigue, especially in the later weeks of treatment and for some time afterward, and firmness or shrinkage of the breast. Women who have had radiation therapy to the lymph nodes in the underarm area may develop lymphedema, a condition in which fluid collects in the arm, causing it to swell."
+                android:textSize="16dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/sen_regular"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/text7"
+                android:layout_below="@id/text6"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:text="How can I ease the side effects?"
+                android:textSize="24dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="19dp"
+                android:textColor="#FFFFFF"
+                android:textAlignment="textStart"
+                android:fontFamily="@font/sen"
+                />
+            <TextView
+                android:id="@+id/text8"
+                android:layout_below="@id/text7"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="Your care team may offer various supportive care techniques to help ease the side effects associated with radiation therapy for breast cancer. Pain management and oncology rehabilitation may help with skin pain and soreness and lymphedema management. Naturopathic support, nutrition therapy, oncology rehabilitation and mind-body medicine may help relieve fatigue. "
+                android:textSize="16dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/sen_regular"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:id="@+id/text9"
+                android:layout_below="@id/text8"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:text="What is the difference between radiation and chemotherapy?"
+                android:textSize="24dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="19dp"
+                android:textColor="#FFFFFF"
+                android:textAlignment="textStart"
+                android:fontFamily="@font/sen"
+                />
+            <TextView
+                android:id="@+id/text10"
+                android:layout_below="@id/text9"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="Chemotherapy involves medications delivered by injections or taken in pill form. This type of treatment is circulated throughout the entire body and is generally prescribed by a medical oncologist. Radiation therapy, delivered by a radiation oncologist, uses radiotherapy beams focused on a very specific area of the body in order to deliver high doses of the treatment while reducing the risk of radiation exposure to healthy tissue."
+                android:textSize="16dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/sen_regular"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"/>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

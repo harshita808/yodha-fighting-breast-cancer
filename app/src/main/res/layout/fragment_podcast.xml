@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <include
+        layout="@layout/toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#732F48"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Share your experience"
+                android:textSize="24dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#FFB9BF"
+                android:textAlignment="center"
+                android:fontFamily="@font/sen"
+                android:background="#732F48"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="24dp"
+                android:layout_marginTop="28dp"
+                android:layout_gravity="center"
+                android:drawableRight="@drawable/ic_mic_white"
+                android:background="@drawable/border_mic"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Start by telling something about yourself"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center"
+                android:textSize="17dp"
+                android:fontFamily="@font/sen"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Survivor Podcast"
+                android:textSize="24dp"
+                android:layout_marginTop="25dp"
+                android:textAlignment="center"
+                android:textColor="#FFB9BF"
+                android:fontFamily="@font/sen"
+                />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:padding="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/border_podcast">
+                <ImageView
+                    android:id="@+id/image2"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_centerVertical="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/podcast2"
+                    />
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_toRightOf="@id/image2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Miriam trejo, breast cancer patient story"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="@font/sen_regular"
+                    />
+
+                <TextView
+                    android:layout_below="@id/text2"
+                    android:layout_width="wrap_content"
+                    android:textSize="18dp"
+                    android:layout_toRightOf="@id/image2"
+
+                    android:textColor="#FFFFFF"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="4 MINS 59 SECS"
+                    />
+                <TextView
+                    android:layout_below="@id/text2"
+                    android:layout_width="68dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:drawableLeft="@drawable/ic_baseline_play_circle_outline_24"
+                    android:drawableRight="@drawable/ic_baseline_pause_circle_outline_24"
+                    />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:padding="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/border_podcast">
+                <ImageView
+                    android:id="@+id/image3"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_centerVertical="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/podcast3"
+                    />
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_toRightOf="@id/image3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Erin's Story-Living with Metastatic Breast Cancer"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="@font/sen_regular"
+                    />
+
+                <TextView
+                    android:layout_below="@id/text3"
+                    android:layout_width="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="16 MINS 04 SECS"
+                    />
+                <TextView
+                    android:layout_below="@id/text3"
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_alignParentRight="true"
+                    android:drawableLeft="@drawable/ic_baseline_play_circle_outline_24"
+                    android:drawableRight="@drawable/ic_baseline_pause_circle_outline_24"
+                    />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:padding="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/border_podcast">
+                <ImageView
+                    android:id="@+id/image4"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:scaleType="centerCrop"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/podcast4"
+                    />
+
+                <TextView
+                    android:id="@+id/text4"
+                    android:layout_toRightOf="@id/image4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Breast Cancer, A Survivor's Story"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="@font/sen_regular"
+                    />
+                <TextView
+                    android:layout_below="@id/text4"
+                    android:layout_width="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="9 MINS 01 SECS"
+                    />
+
+                <TextView
+                    android:layout_below="@id/text4"
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_alignParentRight="true"
+                    android:drawableLeft="@drawable/ic_baseline_play_circle_outline_24"
+                    android:drawableRight="@drawable/ic_baseline_pause_circle_outline_24"
+                    />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/border_podcast">
+                <ImageView
+                    android:id="@+id/image1"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_centerVertical="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/podcast1"
+                    />
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_toRightOf="@id/image1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="how i survived breast cancer"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="@font/sen_regular"
+                    />
+                <TextView
+                    android:layout_below="@id/text1"
+                    android:layout_width="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="5 MINS 11 SECS"
+                    />
+
+                <TextView
+                    android:layout_below="@id/text1"
+                    android:layout_width="68dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:drawableLeft="@drawable/ic_baseline_play_circle_outline_24"
+                    android:drawableRight="@drawable/ic_baseline_pause_circle_outline_24"
+                    />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:padding="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/border_podcast">
+                <ImageView
+                    android:id="@+id/image5"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_centerVertical="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/podcast5"
+                    />
+
+                <TextView
+                    android:id="@+id/text5"
+                    android:layout_toRightOf="@id/image5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Breast Cancer Survivor Stories-Pink Runway Fashion Show"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="@font/sen_regular"
+                    />
+                <TextView
+                    android:layout_below="@id/text5"
+                    android:layout_width="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="4 MINS 37 SECS"
+                    />
+                <TextView
+                    android:layout_below="@id/text5"
+                    android:layout_width="68dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:drawableLeft="@drawable/ic_baseline_play_circle_outline_24"
+                    android:drawableRight="@drawable/ic_baseline_pause_circle_outline_24"
+                    />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

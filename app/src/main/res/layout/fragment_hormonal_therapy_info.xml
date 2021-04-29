@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#973961"
+    >
+    <include
+        layout="@layout/toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#973961">
+            <TextView
+                android:id="@+id/FAQ"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FAQ'S"
+                android:textSize="24dp"
+                android:textColor="#FFB9BF"
+                android:gravity="center"
+                android:fontFamily="@font/sen"
+                />
+            <TextView
+                android:id="@+id/text1"
+                android:layout_below="@id/FAQ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Who should not use hormone therapy?"
+                android:textSize="24dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="19dp"
+                android:textColor="#FFFFFF"
+                android:textAlignment="textStart"
+                android:fontFamily="@font/sen"
+                />
+            <TextView
+                android:id="@+id/text2"
+                android:layout_below="@id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Hormone therapy is not a good choice for every woman. For some, the risks outweigh the benefits, so careful consideration with a healthcare provider is advised. In general, women who have breast cancer, uterine cancer, unexplained uterine bleeding, liver disease, a history of blood clots, and cardiovascular disease should not use hormone therapy."
+                android:textSize="16dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/sen_regular"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_below="@id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I’ve heard about something called bioidentical hormones. What are they? "
+                android:textSize="24dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="19dp"
+                android:textColor="#FFFFFF"
+                android:textAlignment="textStart"
+                android:fontFamily="@font/sen"
+                />
+            <TextView
+                android:id="@+id/text4"
+                android:layout_below="@id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The term bioidentical hormone therapy began as a marketing term for custom-compounded hormones. But it is taken to mean hormones that have the same chemical and molecular structure as hormones that are produced in the body. Bioidentical hormones do not have to be custom-compounded (meaning custom mixed). There are many well-tested, FDA-approved hormone therapy products that meet this definition and are commercially available from retail pharmacies in a variety of doses that will allow you and your doctor to customize your therapy to meet your needs."
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/sen_regular"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:id="@+id/text5"
+                android:layout_below="@id/text4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="What is genitourinary syndrome of menopause (GSM) "
+                android:textSize="24dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="19dp"
+                android:textColor="#FFFFFF"
+                android:textAlignment="textStart"
+                android:fontFamily="@font/sen"
+                />
+            <TextView
+                android:id="@+id/text6"
+                android:layout_below="@id/text5"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="The genitourinary syndrome of menopause (GSM) is a new term that describes various menopausal symptoms and signs including not only genital symptoms (dryness, burning, and irritation), and sexual symptoms (lack of lubrication, discomfort or pain, and impaired function, but also urinary symptoms (urgency, dysuria, and recurrent urinary tract infections). "
+                android:textSize="16dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/sen_regular"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

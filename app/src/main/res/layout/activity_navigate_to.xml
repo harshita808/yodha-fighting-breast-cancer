@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#973961"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="200dp"
+            android:layout_height="217dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="37dp"
+            android:src="@drawable/logo" />
+
+        <Button
+            android:id="@+id/id1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logo"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="64dp"
+            android:elevation="5dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/hover"
+            android:onClick="nonPatient"
+            android:text="I'm not a breast cancer patient"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/id2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id1"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/hover"
+            android:layout_marginBottom="30dp"
+            android:elevation="5dp"
+            android:onClick="Patient"
+            android:text="I'm a breast cancer patient"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/id3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id2"
+            android:layout_marginLeft="30dp"
+            android:elevation="5dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="95dp"
+            android:background="@drawable/hover"
+            android:onClick="Surv"
+            android:text="I'm a Survivor"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

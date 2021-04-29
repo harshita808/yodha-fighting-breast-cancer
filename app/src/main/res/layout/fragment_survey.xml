@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <include
+        layout="@layout/toolbar"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#973961">
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Were you 40 yrs or older before you were diagnosed with cancer?"
+                android:textSize="18dp"
+                android:fontFamily="@font/sen"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="40dp"
+                />
+            <RadioGroup
+                android:id="@+id/radio"
+                android:layout_below="@id/text1"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:fontFamily="@font/sen"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layoutDirection="rtl"
+                android:layout_height="wrap_content"
+                >
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:textSize="18dp"
+                    android:text="  No     "
+                    android:buttonTint="#FFFFFF"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginRight="50dp"
+                    android:layout_height="wrap_content"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  Yes    "
+                    android:buttonTint="#FFFFFF"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="35dp"
+                    android:textSize="18dp"
+                    />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_below="@id/radio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Did you have any genetic changes?"
+                android:textSize="18dp"
+                android:fontFamily="@font/sen"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="30dp"
+                />
+            <RadioGroup
+                android:id="@+id/radio1"
+                android:layout_below="@id/text2"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:fontFamily="@font/sen"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layoutDirection="rtl"
+                android:layout_height="wrap_content"
+                >
+
+                <RadioButton
+
+
+                    android:layout_width="wrap_content"
+                    android:textSize="18dp"
+                    android:text="  No     "
+                    android:buttonTint="#FFFFFF"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginRight="50dp"
+                    android:layout_height="wrap_content"
+                    />
+                <RadioButton
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  Yes    "
+                    android:buttonTint="#FFFFFF"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="35dp"
+                    android:textSize="18dp"
+                    />
+            </RadioGroup>
+            <TextView
+                android:id="@+id/text3"
+                android:layout_below="@id/radio1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Did you undergo Early Menarche? (period before age 12)"
+                android:textSize="18dp"
+                android:fontFamily="@font/sen"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="30dp"
+                />
+            <RadioGroup
+                android:id="@+id/radio2"
+                android:layout_below="@id/text3"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:fontFamily="@font/sen"
+
+                android:orientation="horizontal"
+                android:layoutDirection="rtl"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                >
+
+                <RadioButton
+
+
+                    android:layout_width="wrap_content"
+                    android:textSize="18dp"
+                    android:text="  No     "
+                    android:buttonTint="#FFFFFF"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginRight="50dp"
+                    android:layout_height="wrap_content"
+                    />
+                <RadioButton
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  Yes    "
+                    android:buttonTint="#FFFFFF"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="35dp"
+                    android:textSize="18dp"
+                    />
+            </RadioGroup>
+            <TextView
+                android:id="@+id/text4"
+                android:layout_below="@id/radio2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Did you undergo Late Menopause?"
+                android:textSize="18dp"
+                android:fontFamily="@font/sen"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="30dp"
+                />
+            <RadioGroup
+                android:id="@+id/radio3"
+                android:layout_below="@id/text4"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:fontFamily="@font/sen"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layoutDirection="rtl"
+                android:layout_height="wrap_content"
+                >
+
+                <RadioButton
+
+                    android:layout_width="wrap_content"
+                    android:textSize="18dp"
+                    android:text="  No     "
+                    android:buttonTint="#FFFFFF"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginRight="50dp"
+                    android:layout_height="wrap_content"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  Yes    "
+                    android:buttonTint="#FFFFFF"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="35dp"
+                    android:textSize="18dp"
+                    />
+            </RadioGroup>
+            <TextView
+                android:id="@+id/text5"
+                android:layout_below="@id/radio3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Did you have personal history of breast cancer or certain non-cancerous breast diseases?"
+                android:textSize="18dp"
+                android:fontFamily="@font/sen"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="30dp"
+                />
+            <RadioGroup
+                android:id="@+id/radio4"
+                android:layout_below="@id/text5"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:fontFamily="@font/sen"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layoutDirection="rtl"
+                android:layout_height="wrap_content"
+                >
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:textSize="18dp"
+                    android:text="  No     "
+                    android:buttonTint="#FFFFFF"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginRight="50dp"
+                    android:layout_height="wrap_content"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  Yes    "
+                    android:buttonTint="#FFFFFF"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="35dp"
+                    android:textSize="18dp"
+                    />
+            </RadioGroup>
+            <TextView
+                android:id="@+id/text6"
+                android:layout_below="@id/radio4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. Did you have ovarian cancer?"
+                android:textSize="18dp"
+                android:fontFamily="@font/sen"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="30dp"
+                />
+            <RadioGroup
+                android:id="@+id/radio5"
+                android:layout_below="@id/text6"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:fontFamily="@font/sen"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layoutDirection="rtl"
+                android:layout_height="wrap_content"
+                >
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:textSize="18dp"
+                    android:text="  No     "
+                    android:buttonTint="#FFFFFF"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginRight="50dp"
+                    android:layout_height="wrap_content"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  Yes    "
+                    android:buttonTint="#FFFFFF"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="35dp"
+                    android:textSize="18dp"
+                    />
+            </RadioGroup>
+            <TextView
+                android:id="@+id/text7"
+                android:layout_below="@id/radio5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7. Did you have radiation therapy in the past?"
+                android:textSize="18dp"
+                android:fontFamily="@font/sen"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="30dp"
+                />
+            <RadioGroup
+                android:id="@+id/radio6"
+                android:layout_below="@id/text7"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:fontFamily="@font/sen"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layoutDirection="rtl"
+                android:layout_height="wrap_content"
+                >
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:textSize="18dp"
+                    android:text="  No     "
+                    android:buttonTint="#FFFFFF"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginRight="50dp"
+                    android:layout_height="wrap_content"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  Yes    "
+                    android:buttonTint="#FFFFFF"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="35dp"
+                    android:textSize="18dp"
+                    />
+            </RadioGroup>
+            <TextView
+                android:id="@+id/text8"
+                android:layout_below="@id/radio6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8. Do you drink alcohol frequently?"
+                android:textSize="18dp"
+                android:fontFamily="@font/sen"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="30dp"
+                />
+            <RadioGroup
+                android:id="@+id/radio7"
+                android:layout_below="@id/text8"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:fontFamily="@font/sen"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layoutDirection="rtl"
+                android:layout_height="wrap_content"
+                >
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:textSize="18dp"
+                    android:text="  No     "
+                    android:buttonTint="#FFFFFF"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginRight="50dp"
+                    android:layout_height="wrap_content"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  Yes    "
+                    android:buttonTint="#FFFFFF"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="35dp"
+                    android:textSize="18dp"
+                    />
+            </RadioGroup>
+            <TextView
+                android:id="@+id/text9"
+                android:layout_below="@id/radio7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9. Are you overweight? (BMI greater than 30)?"
+                android:textSize="18dp"
+                android:fontFamily="@font/sen"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="30dp"
+                />
+            <RadioGroup
+                android:id="@+id/radio8"
+                android:layout_below="@id/text9"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:fontFamily="@font/sen"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layoutDirection="rtl"
+                android:layout_height="wrap_content"
+                >
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:textSize="18dp"
+                    android:text="  No     "
+                    android:buttonTint="#FFFFFF"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginRight="50dp"
+                    android:layout_height="wrap_content"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  Yes    "
+                    android:buttonTint="#FFFFFF"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="35dp"
+                    android:textSize="18dp"
+                    />
+            </RadioGroup>
+
+            <Button
+                android:layout_below="@id/radio8"
+                android:id="@+id/submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sen_regular"
+                android:paddingLeft="25dp"
+                android:paddingRight="15dp"
+                android:text="Submit "
+                android:elevation="5dp"
+                android:textAllCaps="false"
+                android:drawableRight="@drawable/ic_arr_right"
+                android:layout_marginTop="26dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="#FFFFFF"
+                android:textSize="19dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/hover"/>
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#973961"
+    >
+    <include
+        layout="@layout/toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#973961">
+            <TextView
+                android:id="@+id/FAQ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FAQ'S"
+                android:layout_marginTop="25dp"
+                android:textSize="24dp"
+                android:textColor="#FFB9BF"
+                android:gravity="center"
+                android:fontFamily="@font/sen"
+                />
+            <TextView
+                android:id="@+id/text1"
+                android:layout_below="@id/FAQ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What are the different options for surgery? "
+                android:textSize="24dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="19dp"
+                android:layout_marginTop="15dp"
+                android:textColor="#FFFFFF"
+                android:textAlignment="textStart"
+                android:fontFamily="@font/sen"
+                />
+            <TextView
+                android:id="@+id/text2"
+                android:layout_below="@id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Surgery is the most common treatment for breast cancer. Procedures may include:
+•	Mastectomy: This surgery removes one or both breasts, including the breast tissue, nipple, areola and skin.
+•	Lumpectomy: Also known as breast-conserving surgery, this operation removes only the cancerous breast tissue while leaving as much healthy tissue as possible. A lumpectomy is not an option for every breast cancer patient.
+•	Sentinel node biopsy: This is the removal of one or a few of the first draining lymph nodes (glands under the arm) to determine whether cancer cells have spread beyond the breast.
+•	Oncoplastic and breast reconstruction surgery: This reconstructive technique reshapes the breast and also may be used to prevent scarring and deformation of the breast.
+"
+                android:textSize="16dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/sen_regular"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_below="@id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What are the potential side effects of breast cancer surgery? "
+                android:textSize="24dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="19dp"
+                android:textColor="#FFFFFF"
+                android:textAlignment="textStart"
+                android:fontFamily="@font/sen"
+                />
+            <TextView
+                android:id="@+id/text4"
+                android:layout_below="@id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Surgical procedures for breast cancer may cause short-term pain or discomfort in the treated area. Also, the muscles of the arm may feel weak, and the skin in the breast area may feel tight. Surgery involving the lymph nodes may also cause swelling in the arm, a condition known as lymphedema."
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/sen_regular"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_below="@id/text4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="How long will I be in the hospital? "
+                android:textSize="24dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="19dp"
+                android:textColor="#FFFFFF"
+                android:textAlignment="textStart"
+                android:fontFamily="@font/sen"
+                />
+            <TextView
+                android:id="@+id/text6"
+                android:layout_below="@id/text5"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="If a lumpectomy is performed, patients typically leave the hospital the same day as the surgery. In the case of a mastectomy, patients are more likely to stay in the hospital overnight."
+                android:textSize="16dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/sen_regular"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/text7"
+                android:layout_below="@id/text6"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:text="Will my breast(s) look or feel differently after surgery?"
+                android:textSize="24dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="19dp"
+                android:textColor="#FFFFFF"
+                android:textAlignment="textStart"
+                android:fontFamily="@font/sen"
+                />
+            <TextView
+                android:id="@+id/text8"
+                android:layout_below="@id/text7"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="After a lumpectomy, or breast-sparing surgery, your breast may look much like it did before the operation. But if the tumor was large, your breast may look different or smaller. You will likely develop a scar at the site of the lumpectomy. You may also likely develop numbness along the scar."
+                android:textSize="16dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/sen_regular"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:id="@+id/text9"
+                android:layout_below="@id/text8"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:text="What is breast reconstruction?"
+                android:textSize="24dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="19dp"
+                android:textColor="#FFFFFF"
+                android:textAlignment="textStart"
+                android:fontFamily="@font/sen"
+                />
+            <TextView
+                android:id="@+id/text10"
+                android:layout_below="@id/text9"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="• Breast reconstruction may help restore the look and feel of the breast after a mastectomy. Many women who have had a breast removed opt for breast reconstruction—in some limited cases, at the same time as the mastectomy, but more often after the mastectomy procedure. With immediate reconstruction, a surgeon performs the first stage to rebuild the breast during the same operation as the mastectomy. A method called skin-sparing mastectomy may be used to save enough breast skin to cover the reconstruction.
+•
+	Breasts may be rebuilt using saline implants or autologous tissue (the patient’s own tissue from elsewhere in the body). Most breast reconstructions performed today use implants. For some reconstructions, more than one surgery may be needed.
+•
+Mastectomy with reconstruction done on the same day is an option for many women, but the best approach for an individual should be determined through a discussion of various options between the patient and her surgeon.
+•
+The decision to have reconstruction is a personal one. Some women choose not to have reconstruction. Others believe it helps their appearance and recovery.
+"
+                android:textSize="16dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/sen_regular"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/text11"
+                android:layout_below="@id/text10"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="After my breast cancer surgery, will I need radiation or chemotherapy or both? "
+                android:textSize="24dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="19dp"
+                android:textColor="#FFFFFF"
+                android:textAlignment="textStart"
+                android:fontFamily="@font/sen"
+                />
+            <TextView
+                android:id="@+id/text12"
+                android:layout_below="@id/text11"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="The stage of breast cancer helps determine which treatment regimen your oncologist will recommend. After breast-sparing surgery, radiation treatments may be used to help destroy remaining breast cancer cells. Radiation therapy is typically given after surgery to lower the chance of a cancer recurrence. Adjuvant breast cancer chemotherapy may be used after surgery to destroy remaining cancer cells not killed during surgery."
+                android:textSize="16dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/sen_regular"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#973961">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="200dp"
+            android:layout_height="217dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/logo"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_below="@id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal"
+            tools:text="TextView"
+            android:padding="20dp"/>
+
+
+        <RadioGroup
+            android:layout_below="@id/textView2"
+            android:id="@+id/radio"
+           android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+            <RadioButton
+                android:id="@+id/radioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="yes"
+                android:buttonTint="#FFFFFF"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="50dp"
+                android:padding="5dp"
+                android:layout_marginRight="25dp"
+                android:textSize="25dp"
+                android:onClick="onRadioClicked"
+                />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_toRightOf="@id/radioButton1"
+                android:layout_width="wrap_content"
+                android:textSize="25dp"
+                android:buttonTint="#FFFFFF"
+                android:textColor="#FFFFFF"
+                android:layout_marginRight="50dp"
+                android:padding="5dp"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:onClick="onRadioClicked"
+                />
+
+        </RadioGroup>
+
+
+
+        <Button
+            android:id="@+id/Previous"
+            android:background="@drawable/hover"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="40dp"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:elevation="5dp"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            android:layout_height="wrap_content"
+            android:onClick="previousQuestion"
+            android:text="Previous"
+            />
+
+        <Button
+            android:id="@+id/Next"
+            android:layout_width="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="20dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content"
+            android:onClick="nextQuestion"
+            android:textSize="18dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:background="@drawable/hover"
+            android:elevation="5dp"
+            android:text="Next"
+            />
+    </RelativeLayout>
+</LinearLayout>
